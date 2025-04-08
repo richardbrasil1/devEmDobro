@@ -1,0 +1,19 @@
+@media (max-width: 768px){
+    .conteudo .nome-personagem {
+        background-color: red;
+    }
+}
+
+main::after {
+    background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0) 70%) no-repeat;
+    width: 100vw;
+}
+
+main .personagem .imagem {
+    height: 80%;
+    object-position: center;
+}
+
+.conteudo {
+    justify-content:  flex-end;
+}
