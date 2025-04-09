@@ -1,8 +1,5 @@
 @media (max-width: 768px){
-    .conteudo .nome-personagem {
-        background-color: red;
-    }
-}
+    
 
 main::after {
     background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0) 70%) no-repeat;
@@ -16,4 +13,26 @@ main .personagem .imagem {
 
 .conteudo {
     justify-content:  flex-end;
+    left: 0;
+    top: -20%;
+    max-width: 100vw;
+    padding: 30px;
+
+}
+
+.conteudo .nome-personagem {
+    font-size: 24px;
+
+}
+
+.conteudo .descricao{
+    max-width: 500px;
+}
+
+.botoes {
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    padding: 30px;
+}
 }
