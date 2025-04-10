@@ -1,6 +1,15 @@
-const botoes = document.querySelectorAll('.botao');
+const botoes = document.querySelectorAll(".botao");
+console.log(botoes);
 
 botoes.forEach(botao=>{
-    console.log(botao);
+    botao.addEventListener("click", () =>{
+        const botaoSelecionado = document.querySelector(".botao.selecionado");
+        botaoSelecionado.classList.remove("selecionado");
+
+        botao.classList.add("selecionado");
+
+
+    }
+    )
     
 })
